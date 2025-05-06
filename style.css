@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#introduction, #contact, #testimonials, #hero-image {
+    padding: 20px;
+}
+
+.apply-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+blockquote {
+    font-style: italic;
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+}
